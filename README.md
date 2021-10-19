@@ -2,30 +2,6 @@
 
 ### All Copyrights to Youngwon Choi @Young-won
 
-Capabilities
-=======================
-### Prior Capabilities:
-- Default models for segmentation, classification, and eventually detection
-- Configuration outside the code
-- Network architecture modeling outside the code
-
-### Unique Capabilities:
-- Implementation of the stream-based image loader for large size image inputs
-- Implementation of different sampling processes
-    - Weighted sampling: uniform, oversampling, reinforcement updated weight
-    - Patch sampling for segmentation: uniform, oversampling, reinforcement sampling
-- Easy-customizable reader classes for different projects
-
-### Customizable Tensorboard
-- Tensorboard for segmentation and classification with attentions
-- Attention map images
-- Embedding for specific layer (for example dimension reductioned feature space clustering results)
-- Tracking the learning curve and images, histogram of weights (for determining learning rate, or other hyperparameters)
-
-### Miscellaneous
-- Customizable loss functions; metrics
-- Can add customized keras layer class
-
 “Cheatsheet”
 =======================
 1. Preprocessing the data (convert raw data to the format readable for python)
@@ -96,11 +72,6 @@ Detailed Process
 1. Analyze the results
     - Comparison based on notebook (__analysis_CV_ipf_segmentation.ipynb__)
     - Make figures
-
-Possible updates:
-=======================
-- RemoteMonitor Callbacks
-- Saliency map for tensorboard
 
 Useful references
 =======================
