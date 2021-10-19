@@ -2,6 +2,12 @@
 
 ### All Copyrights to Youngwon Choi @Young-won
 
+### Envrionment
+- Python 3.6
+- Tensorflow 1.15.0
+- Keras 2.3.1
+
+
 “Cheatsheet”
 =======================
 1. Preprocessing the data (convert raw data to the format readable for python)
