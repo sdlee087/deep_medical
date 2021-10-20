@@ -1,6 +1,6 @@
 # Deep_Medical
 
-### All Copyrights to Youngwon Choi @Young-won
+Original Scripts from Youngwon Choi @Young-won
 
 ### Envrionment
 - Python 3.6
